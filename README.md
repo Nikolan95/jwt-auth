@@ -1,11 +1,11 @@
-GET|HEAD        api/accounts .................................................................................. accounts.index › AccountController@index
-POST            api/accounts .................................................................................. accounts.store › AccountController@store
-GET|HEAD        api/accounts/{account} .......................................................................... accounts.show › AccountController@show
-PUT|PATCH       api/accounts/{account} ...................................................................... accounts.update › AccountController@update
-DELETE          api/accounts/{account} .................................................................... accounts.destroy › AccountController@destroy
-POST            api/login ......................................................................................................... AuthController@login
-POST            api/logout ....................................................................................................... AuthController@logout
-POST            api/register ................................................................................................... AuthController@register
+1. GET|HEAD        api/accounts .................................................................................. accounts.index › AccountController@index
+2. POST            api/accounts .................................................................................. accounts.store › AccountController@store
+3. GET|HEAD        api/accounts/{account} .......................................................................... accounts.show › AccountController@show
+4. PUT|PATCH       api/accounts/{account} ...................................................................... accounts.update › AccountController@update
+5. DELETE          api/accounts/{account} .................................................................... accounts.destroy › AccountController@destroy
+6. POST            api/login ......................................................................................................... AuthController@login
+7. POST            api/logout ....................................................................................................... AuthController@logout
+8. POST            api/register ................................................................................................... AuthController@register
 
 
 Route list
